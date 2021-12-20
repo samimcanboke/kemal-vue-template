@@ -1,35 +1,38 @@
-# kemal-vue-template
+# kemalcr ile vue entegrasyonu
 
-Template for Kemal × Vue with webpack, supports hot-reload with webpack-dev-server.  
-It enables you to build Kemal × Vue application fast, with no-stress.
+Web paketi ile Kemal × Vue için şablon, webpack-dev-server ile çalışırken otomatik build destekler.
+Kemal × Vue uygulamasını hızlı ve sorunsuz bir şekilde oluşturmayı sağlar.
 
-## Installation
+
+## Yükleme
 
 `git clone https://github.com/samimcanboke/kemal-vue-template.git`  
 `cd kemal-vue-template`  
 `yarn install`  
 `shards install`  
 
-## Development
+## Geliştirme
 
-start server:  
+Sunucuyu başlatma:  
 `crystal run app/kemal-vue-template.cr`  
 `yarn start`  
 
-webpack-dev-server uses port 3035 and kemal uses port 3000 as default.
-Be sure to start both of processes for webpack-dev-server's hot-reload.
+webpack-dev-server kullandığı port 3035 ve Kemalcr ise 3000 varsayılan portu kullanıyor.
 
-## Production
-build: `yarn build`
+uses port 3035 and kemal uses port 3000 as default.
+webpack-dev-server'ın çalışırken rebuild işlemi için her iki işlemi de başlattığınızdan emin olun.
 
-## Contributing
+## Productiona alma
+production için : `yarn build` çalıştırın
 
-1. Fork it (<https://github.com/your-github-user/kemal-vue-template/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+## Katkıda bulunun
 
-## Contributors
+1. Fork'la (<https://github.com/samimcanboke/kemal-vue-template>)
+2. Kendi branch'ını oluştur. (`git checkout -b yeni-ozellik`)
+3. Değişikliklerini commitle (`git commit -am 'Yeni Özellik'`)
+4. Pushla (`git push origin yeni-ozellik`)
+5. Yeni pull talebi oluştur
 
-- [Kanezoh](https://github.com/your-github-user) - creator and maintainer
+## Katkıda Bulunanlar
+
+- [Samimcan BÖKE](https://github.com/samimcanboke) - Üretici
