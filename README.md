@@ -5,7 +5,7 @@ It enables you to build Kemal × Vue application fast, with no-stress.
 
 ## Installation
 
-`git clone git@github.com:Kanezoh/kemal-vue-template.git`  
+`git clone https://github.com/samimcanboke/kemal-vue-template.git`  
 `cd kemal-vue-template`  
 `yarn install`  
 `shards install`  
